@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 function Exemplo_0() {
  return(
     <viem>
-        <text> Minha Primeira Tela</text>
+        <text style={{color: '#fff'}}> Minha Primeira Tela</text>
     </viem>
  );
 
