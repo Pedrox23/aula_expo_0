@@ -1,9 +1,9 @@
 import { View, Text } from 'react-native';
-
+import style from './styles';
 function Exemplo_0() {
  return(
-    <viem>
-        <text style={{color: '#fff'}}> Minha Primeira Tela</text>
+    <viem style={style.container}>
+        <text> Minha Primeira Tela</text>
     </viem>
  );
 
