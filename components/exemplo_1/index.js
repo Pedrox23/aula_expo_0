@@ -3,7 +3,7 @@ import style from './styles';
 function Exemplo_0() {
  return(
     <viem style={style.container}>
-        <text> Minha Primeira Tela</text>
+        <text style={style.texto}> Minha Primeira Tela</text>
     </viem>
  );
 
