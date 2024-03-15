@@ -8,7 +8,11 @@ const style= StyleSheet.create({
     },
     texto: {
         color: '#00f',
-        fontSize: 20,
+        fontSize: 40,
+    },
+    texto2: {
+        color: 'purple',
+        fontSize: 30,
     }
     
     
