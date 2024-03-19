@@ -7,11 +7,11 @@ const style= StyleSheet.create({
 
     },
     texto: {
-        color: '#00f',
+        color: '#000000',
         fontSize: 40,
     },
     texto2: {
-        color: 'purple',
+        color: '#659c65',
         fontSize: 30,
     }
     
