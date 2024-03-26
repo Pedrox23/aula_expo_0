@@ -11,8 +11,9 @@ const  styles = StyleSheet.create({
 
     },
     titulo: {
-        fontSize: 30,
+        fontSize: 40,
         fontWeight: 'bold',
+        fontFamily: 'Brush Script MT',
         marginVertical: 20,
 
     },
@@ -20,6 +21,13 @@ const  styles = StyleSheet.create({
         fontSize: 25,
         margin: 10,
         color: '#80d5e0'
+
+    },
+    viewmensagem: {
+        borderWidth: 2,
+        borderColor: '#a3e8ff',
+        borderRadius: 20,
+
 
     },
 
