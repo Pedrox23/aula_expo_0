@@ -15,12 +15,13 @@ const  styles = StyleSheet.create({
         fontWeight: 'bold',
         fontFamily: 'Arial',
         marginVertical: 20,
+        color:'#348a69'
 
     },
     mensagem: {
         fontSize: 25,
         margin: 10,
-        color: '#80d5e0'
+        color: '#0d5439'
 
     },
     viewmensagem: {

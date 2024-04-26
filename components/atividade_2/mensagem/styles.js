@@ -4,12 +4,12 @@ const styles = StyleSheet.create({
     mensagem: {
         fontSize: 25,
         margin: 10,
-        color: '#80d5e0'
+        color: '#0d5439'
 
     },
     viewmensagem: {
-        borderWidth: 2,
-        borderColor: '#a3e8ff',
+        borderWidth: 4,
+        borderColor: '#24573a',
         borderRadius: 20,
         marginBottom: 10,
 
