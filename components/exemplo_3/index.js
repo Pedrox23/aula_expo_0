@@ -2,11 +2,11 @@ import {View, Text, Pressable} from 'react-native';
 
 import styles from './styles';
 
-export default function exemplo_3 () {
+ function exemplo_3 () {
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}> Exemplo 3</Text>
-        <Pressable>
+        <Pressable onPress={() => alert('Oi')} style={styles.botao}>
         <Text>Ex. botão</Text>
         </Pressable>
 
@@ -14,3 +14,5 @@ export default function exemplo_3 () {
 
     );
 }
+
+export default exemplo_3;
