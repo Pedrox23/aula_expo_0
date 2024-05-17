@@ -3,32 +3,27 @@ import { View, Text, Pressable } from 'react-native';
 
 import styles from './styles';
 
-function exemplo_3() {
+function atividade_3() {
 
     const [numero, setNumero] = useState(0);
 
     function incremento() {
         setNumero( numero+1 );
     }
+    function Tirar() {
+        setNumero( numero-1 );
+    }
+    function Zerar() {
+        setNumero( numero-numero);
+    }
 
 
     return (
         <View style={styles.container}>
             <Text style={styles.titulo}> Exemplo 3</Text>
-            <Pressable
-                onPress={() => alert('Oi')}
-                style={({pressed}) => pressed ? 
-                [styles.botao, styles.botaoPress]
-                : 
-                styles.botao}
-            >
-                <Text style={styles.txtBotao}>Ex. botão</Text>
-            </Pressable>
             
-            <Text style={styles.titulo}>Exemplo State</Text>
-
-            <Text style={styles.txtNumero}>{numero}</Text>
             
+            <View style={styles.container2}> 
             <Pressable
                 onPress={() => incremento()}
                 style={({pressed}) => pressed ? 
@@ -36,12 +31,36 @@ function exemplo_3() {
                 : 
                 styles.botao}
             >
-                <Text style={styles.txtBotao}>+1</Text>
+                <Text style={styles.txtBotao}>+</Text>
             </Pressable>
-            
+
+            <Text style={styles.txtNumero}>{numero}</Text>
+
+            <Pressable
+                onPress={() => Tirar()}
+                style={({pressed}) => pressed ? 
+                [styles.botao, styles.botaoPress]
+                : 
+                styles.botao}
+            >
+                
+                <Text style={styles.txtBotao}>-</Text>
+            </Pressable>
+
+            </View>
+
+            <Pressable
+                onPress={() => Zerar()}
+                style={({pressed}) => pressed ? 
+                [styles.botao, styles.botaoPress]
+                : 
+                styles.botao}
+            >
+                <Text style={styles.txtBotao}>ZERAR</Text>
+            </Pressable>
         </View>
 
     );
 }
 
-export default exemplo_3;
+export default atividade_3 ;
