@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     botao: {
         borderWidth: 3,
         padding: 10,
-        width: '80%',
+        width: '40%',
         borderRadius: 20,
         alignItems: 'center',
         borderColor: '#427ad4',
@@ -33,12 +33,13 @@ const styles = StyleSheet.create({
     txtNumero: {
         fontSize: 35,
         color: '#673AB7',
-        marginVertical: 10,
+        marginVertical: 5,
 
     },
     container2: {
-        display: 'inline-block',
-        flex:'row',
+        display: 'flex',
+        flexDirection:'row',
+        alignItems:'center',
         
     },
    
